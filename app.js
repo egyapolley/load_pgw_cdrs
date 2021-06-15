@@ -9,7 +9,7 @@ const CDR = require("./database/sql_models").CDR
 const inputDir = path.join(__dirname, "input_dir");
 const outputDir = path.join(__dirname, "processed_dir")
 
-const stream = fs.createWriteStream("append.txt", {flags: 'a'});
+//const stream = fs.createWriteStream("append.txt", {flags: 'a'});
 
 sequelize.sync({logging:false}).then(() => {
     console.log("Mysql DB successfully connected");
