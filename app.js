@@ -6,8 +6,8 @@ const moment = require("moment")
 const sequelize = require("./database/sql_database")
 const CDR = require("./database/sql_models").CDR
 
-//const inputDir = path.join(__dirname, "input_dir");
-const inputDir ="/home/inadmin/cli-scripts/load_pgw_cdrs/temp_input"
+const inputDir = path.join(__dirname, "input_dir");
+//const inputDir ="/home/inadmin/cli-scripts/load_pgw_cdrs/temp_input"
 const outputDir = path.join(__dirname, "processed_dir")
 
 const files = fs.readdirSync(inputDir)
