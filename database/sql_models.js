@@ -77,6 +77,10 @@ const CDR = sequelize.define("cdrs", {
     pDNConnectionChargingID:{
         type:Sequelize.STRING,
         allowNull: true,
+    },
+    fileName:{
+        type:Sequelize.STRING,
+        allowNull: true,
     }
 
 });
