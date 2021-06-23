@@ -16,7 +16,6 @@ const sequelize = new Sequelize(db_name,db_user, db_pass,{
         acquire: 10000,
         idle: 10000
     },
-
     define: {
         freezeTableName:true
     }
